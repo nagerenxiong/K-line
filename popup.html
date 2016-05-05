@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>股票监控器</title>
+	<style type="text/css" media="screen">
+		*{margin:0;padding:0;}
+		body{width:250px;}
+		li{list-style-type: none;text-align: center;margin-bottom:10px;margin-top: 10px;}
+		label{margin-right: 10px;}
+		.btn{color:#333;text-decoration:none;}
+	</style>
+</head>
+<body>
+	<ul>
+		<li>
+			<label>代码</label><input id="id" type="text" name="" value="" placeholder="请输入股票代码">
+		</li>
+		<li><label>最高</label><input id="zg" type="text" name="" value="" placeholder=""></li>
+		<li><label>最低</label><input id="zd" type="text" name="" value="" placeholder=""></li>
+		<li><span class="btn" id="btn">确定</span></li>
+		<li><span class="btn" id="delBtn">取消</span></li>
+	</ul>
+	<script type="text/javascript" src="js/support/jquery.js"></script>
+	<script type="text/javascript" src="js/popup.js"></script>
+</body>
+</html>
